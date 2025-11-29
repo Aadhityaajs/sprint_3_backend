@@ -365,6 +365,35 @@ router.get("/bookings/:id", (req, res) => {
   }
 });
 
+// Delete/Close booking
+router.delete("/bookings/:id", (req, res) => {
+  try {
+    const { id } = req.params;
+    const data = readJSON(BOOKING_FILE);
+
+    if (!data || !data.bookings) {
+      return res.status(500).json({ success: false, message: "Failed to read bookings" });
+    }
+
+    const bookingIndex = data.bookings.findIndex(b => b.bookingId === parseInt(id));
+
+    if (bookingIndex === -1) {
+      return res.status(404).json({ success: false, message: "Booking not found" });
+    }
+
+    data.bookings.splice(bookingIndex, 1);
+    writeJSON(BOOKING_FILE, data);
+
+    res.json({
+      success: true,
+      message: "Booking closed successfully"
+    });
+  } catch (error) {
+    console.error("Error in DELETE /bookings/:id:", error);
+    res.status(500).json({ success: false, message: "Server error" });
+  }
+});
+
 // ==================== NOTIFICATION MANAGEMENT ROUTES ====================
 
 // Get all notifications with filters
@@ -372,8 +401,8 @@ router.get("/notifications", (req, res) => {
   try {
     const { userId } = req.query;
 
-    const data = readJSON(NOTIFICATION_FILE);
-    if (!data || !data.notifications) {
+      const data = readJSON(NOTIFICATION_FILE);
+      if(!data || !data.notifications) {
       return res.status(500).json({ success: false, message: "Failed to read notifications" });
     }
 
