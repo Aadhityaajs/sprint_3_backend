@@ -1,0 +1,16 @@
+{
+    "notification":[
+        {
+            "notificationId": 1,
+            "userId": 2,
+            "notificationTitle": "string",
+            "message": "string",
+            "notificationType": "string",
+            "target": "string",
+            "createdBy": "string",
+            "createdOn": "string",
+            "isRead": true,
+            "readOn": "string"
+        }
+    ]
+}

@@ -1,0 +1,327 @@
+{
+    "Users": [
+        {
+            "userId": 1764269864987,
+            "username": "aadhi",
+            "email": "aadhi2k04@gmail.com",
+            "phone": "888366617",
+            "address": {
+                "building": "12",
+                "street": "VIT Chennai",
+                "city": "Chennai",
+                "pincode": "600127",
+                "state": "Tamil Nadu",
+                "country": "India"
+            },
+            "hashedPassword": "$2b$10$cpeHCWqfaMInIsX3ryz7F.D4oFmSafVJRIKN1zXcsp4hWfkl5G4Iy",
+            "status": "Active",
+            "role": "admin",
+            "securityQuestion": "What is your mother's maiden name?",
+            "securityAnswer": "$2b$10$16kEfHoRr0j9Dg1m5MKx3.5oiIQMs4KB.kflmD0XvpyH2dhmt3VQC"
+        },
+        {
+            "userId": 1764273767621,
+            "username": "client",
+            "email": "aadh1i2k04@gmail.com",
+            "phone": "8883666173",
+            "address": {
+                "building": "123",
+                "street": "6/412-A2, Madurai veeranpudur",
+                "city": "Chennai",
+                "pincode": "637001",
+                "state": "Tamil Nadu",
+                "country": "India"
+            },
+            "hashedPassword": "$2b$10$ZrJ4YogsmqCYvL6qR29Hneg5yT/svBbzB4TQCscH.8NCiMu4wPw/6",
+            "status": "Active",
+            "role": "client",
+            "securityQuestion": "What is your mother's maiden name?",
+            "securityAnswer": "$2b$10$40Y8a.j7bo5G3eaO3eaqgu0A3YNFGndBp03mbw6x/8sBG9V8YPuBG"
+        },
+        {
+            "userId": 1764273797846,
+            "username": "host",
+            "email": "aadhi2k024@gmail.com",
+            "phone": "8883666175",
+            "address": {
+                "building": "12345",
+                "street": "6/412-A2, Madurai veeranpudur",
+                "city": "Namakkal",
+                "pincode": "637001",
+                "state": "Tamil Nadu",
+                "country": "India"
+            },
+            "hashedPassword": "$2b$10$S.sSiSqcrKfFzoMewDa/POaRWW7aWeV24IZ/7OTQgaV8Gd.oZl/ia",
+            "status": "Active",
+            "role": "host",
+            "securityQuestion": "What is your mother's maiden name?",
+            "securityAnswer": "$2b$10$6Gm1KP4jwLt172uSV/c4/eSQJSOGgu38LM7awJ3xt25Cfq.3AmUsa"
+        },
+        {
+            "userId": 1764280001234,
+            "username": "rajesh_kumar",
+            "email": "rajesh.kumar@gmail.com",
+            "phone": "9876543210",
+            "address": {
+                "building": "45",
+                "street": "MG Road",
+                "city": "Bangalore",
+                "pincode": "560001",
+                "state": "Karnataka",
+                "country": "India"
+            },
+            "hashedPassword": "$2b$10$N5X7KqZ8mW.1pLvYhF3QBeJKYc8vN9mZxT4wA2bC5dE6fG7hI8jK9",
+            "status": "Active",
+            "role": "host",
+            "securityQuestion": "What is your favorite city?",
+            "securityAnswer": "$2b$10$P6Y8LrA9nX.2qMwZiG4RCfKLZd9wO0nAyU5xB3cD6eF7gH8iJ9kL0"
+        },
+        {
+            "userId": 1764280002345,
+            "username": "priya_sharma",
+            "email": "priya.sharma@yahoo.com",
+            "phone": "9123456780",
+            "address": {
+                "building": "88",
+                "street": "Linking Road",
+                "city": "Mumbai",
+                "pincode": "400050",
+                "state": "Maharashtra",
+                "country": "India"
+            },
+            "hashedPassword": "$2b$10$Q7Z9MsB0oY.3rNxAjH5SDgLMae0xP1oBzV6yC4dE7fG8hI9jK0lM1",
+            "status": "Active",
+            "role": "client",
+            "securityQuestion": "What is your pet's name?",
+            "securityAnswer": "$2b$10$R8A0NtC1pZ.4sOyBkI6TEhMNbf1yQ2pCaW7zD5eF8gH9iJ0kL1mN2"
+        },
+        {
+            "userId": 1764280003456,
+            "username": "vikram_singh",
+            "email": "vikram.singh@outlook.com",
+            "phone": "9988776655",
+            "address": {
+                "building": "67",
+                "street": "Connaught Place",
+                "city": "New Delhi",
+                "pincode": "110001",
+                "state": "Delhi",
+                "country": "India"
+            },
+            "hashedPassword": "$2b$10$S9B1OuD2qA.5tPzClJ7UFiNOcg2zR3qDaX8eE6fG9hI0jK1lM2nO3",
+            "status": "Active",
+            "role": "host",
+            "securityQuestion": "What is your favorite food?",
+            "securityAnswer": "$2b$10$T0C2PvE3rB.6uQaDmK8VGjOPdh3aS4rEbY9fF7gH0iJ1kL2mN3oP4"
+        },
+        {
+            "userId": 1764280004567,
+            "username": "ananya_reddy",
+            "email": "ananya.reddy@gmail.com",
+            "phone": "9876501234",
+            "address": {
+                "building": "23",
+                "street": "Banjara Hills",
+                "city": "Hyderabad",
+                "pincode": "500034",
+                "state": "Telangana",
+                "country": "India"
+            },
+            "hashedPassword": "$2b$10$U1D3QwF4sC.7vRbEnL9WGkPQei4bT5sFeZ0gG8hH1iJ2kL3mN4oP5",
+            "status": "Active",
+            "role": "client",
+            "securityQuestion": "What is your favorite color?",
+            "securityAnswer": "$2b$10$V2E4RxG5tD.8wScFoM0XHlQRfj5cU6tGfA1hH9iI2jK3lM4nO5pQ6"
+        },
+        {
+            "userId": 1764280005678,
+            "username": "arjun_patel",
+            "email": "arjun.patel@hotmail.com",
+            "phone": "9123987654",
+            "address": {
+                "building": "101",
+                "street": "CG Road",
+                "city": "Ahmedabad",
+                "pincode": "380009",
+                "state": "Gujarat",
+                "country": "India"
+            },
+            "hashedPassword": "$2b$10$W3F5SyH6uE.9xTdGpN1YImRSgk6dV7uHgB2iI0jJ3kL4mN5oP6qR7",
+            "status": "Active",
+            "role": "host",
+            "securityQuestion": "What is your birth city?",
+            "securityAnswer": "$2b$10$X4G6TzI7vF.0yUeHqO2ZJnSThl7eW8vIhC3jJ1kK4lM5nO6pQ7rS8"
+        },
+        {
+            "userId": 1764280006789,
+            "username": "neha_gupta",
+            "email": "neha.gupta@gmail.com",
+            "phone": "9876512345",
+            "address": {
+                "building": "56",
+                "street": "Park Street",
+                "city": "Kolkata",
+                "pincode": "700016",
+                "state": "West Bengal",
+                "country": "India"
+            },
+            "hashedPassword": "$2b$10$Y5H7UaJ8wG.1zVfIrP3aKoTUim8fX9wJiD4kK2lL5mN6oP7qR8sT9",
+            "status": "Active",
+            "role": "client",
+            "securityQuestion": "What is your favorite book?",
+            "securityAnswer": "$2b$10$Z6I8VbK9xH.2aWgJsQ4bLpUVjn9gY0xKjE5lL3mM6nO7pQ8rS9tU0"
+        },
+        {
+            "userId": 1764280007890,
+            "username": "karthik_menon",
+            "email": "karthik.menon@yahoo.com",
+            "phone": "9988123456",
+            "address": {
+                "building": "78",
+                "street": "Marine Drive",
+                "city": "Kochi",
+                "pincode": "682031",
+                "state": "Kerala",
+                "country": "India"
+            },
+            "hashedPassword": "$2b$10$A7J9WcL0yI.3bXhKtR5cMqVWko0hZ1yLkF6mM4nN7oP8qR9sT0uV1",
+            "status": "Active",
+            "role": "host",
+            "securityQuestion": "What is your favorite movie?",
+            "securityAnswer": "$2b$10$B8K0XdM1zJ.4cYiLuS6dNrWXlp1iA2zMlG7nN5oO8pQ9rS0tU1vW2"
+        },
+        {
+            "userId": 1764280008901,
+            "username": "divya_nair",
+            "email": "divya.nair@outlook.com",
+            "phone": "9123654789",
+            "address": {
+                "building": "90",
+                "street": "Anna Salai",
+                "city": "Chennai",
+                "pincode": "600002",
+                "state": "Tamil Nadu",
+                "country": "India"
+            },
+            "hashedPassword": "$2b$10$C9L1YeN2aK.5dZjMvT7eOsXYmq2jB3aNmH8oO6pP9qR0sT1uV2wX3",
+            "status": "Active",
+            "role": "client",
+            "securityQuestion": "What is your first school name?",
+            "securityAnswer": "$2b$10$D0M2ZfO3bL.6eAkNwU8fPtYZnr3kC4bOnI9pP7qQ0rS1tU2vW3xY4"
+        },
+        {
+            "userId": 1764280009012,
+            "username": "rahul_joshi",
+            "email": "rahul.joshi@gmail.com",
+            "phone": "9876598765",
+            "address": {
+                "building": "34",
+                "street": "FC Road",
+                "city": "Pune",
+                "pincode": "411004",
+                "state": "Maharashtra",
+                "country": "India"
+            },
+            "hashedPassword": "$2b$10$E1N3AgP4cM.7fBlOxV9gQuaAos4lD5cPpJ0qQ8rR1sT2uV3wX4yZ5",
+            "status": "Active",
+            "role": "host",
+            "securityQuestion": "What is your favorite sport?",
+            "securityAnswer": "$2b$10$F2O4BhQ5dN.8gCmPyW0hRvbBpt5mE6dQqK1rR9sS2tU3vW4xY5zA6"
+        },
+        {
+            "userId": 1764280010123,
+            "username": "sneha_iyer",
+            "email": "sneha.iyer@hotmail.com",
+            "phone": "9988765432",
+            "address": {
+                "building": "12",
+                "street": "Residency Road",
+                "city": "Bangalore",
+                "pincode": "560025",
+                "state": "Karnataka",
+                "country": "India"
+            },
+            "hashedPassword": "$2b$10$G3P5CiR6eO.9hDnQzX1iSwcCqu6nF7eRrL2sS0tT3uV4wX5yZ6aB7",
+            "status": "Active",
+            "role": "client",
+            "securityQuestion": "What is your favorite song?",
+            "securityAnswer": "$2b$10$H4Q6DjS7fP.0iEoRaY2jTxdDrv7oG8fSsM3tT1uU4vW5xY6zA7bC8"
+        },
+        {
+            "userId": 1764280011234,
+            "username": "amit_verma",
+            "email": "amit.verma@yahoo.com",
+            "phone": "9123789456",
+            "address": {
+                "building": "99",
+                "street": "Civil Lines",
+                "city": "Jaipur",
+                "pincode": "302006",
+                "state": "Rajasthan",
+                "country": "India"
+            },
+            "hashedPassword": "$2b$10$I5R7EkT8gQ.1jFpSbZ3kUyeEsw8pH9gTtN4uU2vV5wX6yZ7aB8cD9",
+            "status": "Active",
+            "role": "host",
+            "securityQuestion": "What is your childhood nickname?",
+            "securityAnswer": "$2b$10$J6S8FlU9hR.2kGqTcA4lVzfFtx9qI0hUuO5vV3wW6xY7zA8bC9dE0"
+        },
+        {
+            "userId": 1764280012345,
+            "username": "kavya_pillai",
+            "email": "kavya.pillai@gmail.com",
+            "phone": "9876523456",
+            "address": {
+                "building": "77",
+                "street": "Kovalam Beach Road",
+                "city": "Thiruvananthapuram",
+                "pincode": "695527",
+                "state": "Kerala",
+                "country": "India"
+            },
+            "hashedPassword": "$2b$10$K7T9GmV0iS.3lHrUdB5mWagGuy0rJ1iVvP6wW4xX7yZ8aB9cD0eF1",
+            "status": "Active",
+            "role": "client",
+            "securityQuestion": "What is your dream destination?",
+            "securityAnswer": "$2b$10$L8U0HnW1jT.4mIsVeC6nXbhHvz1sK2jWwQ7xX5yY8zA9bC0dE1fG2"
+        },
+        {
+            "userId": 1764319700274,
+            "username": "admin",
+            "email": "admin@gmail.com",
+            "phone": "8971234567",
+            "address": {
+                "building": "12",
+                "street": "ghs",
+                "city": "Chennai",
+                "pincode": "123456",
+                "state": "Tamil Nadu",
+                "country": "India"
+            },
+            "hashedPassword": "$2b$10$/vtcDYaUb18sFwgOYnLNje7z9tqByAXmq.jX3HYuw30Tt.NA5ZEIO",
+            "status": "Active",
+            "role": "admin",
+            "securityQuestion": "What is your mother's maiden name?",
+            "securityAnswer": "$2b$10$WkFCSLnf9MrgZM964XmLOeThgJ.f0G0L5hCL1YzyBd9e.2hN9y7GG"
+        },
+        {
+            "userId": 1764396053429,
+            "username": "helloclient",
+            "email": "demo@gamil.com",
+            "phone": "9678532365",
+            "address": {
+                "building": "21",
+                "street": "team",
+                "city": "Namakkal",
+                "pincode": "637001",
+                "state": "Tamil Nadu",
+                "country": "India"
+            },
+            "hashedPassword": "$2b$10$GAtvyHm4y5.kRmtN7pZEXehtmcVjcxZkBRRPhrQ/dP0Bmoq.GOyTm",
+            "status": "Active",
+            "role": "client",
+            "securityQuestion": "What was the name of your first pet?",
+            "securityAnswer": "$2b$10$.MuOBSKMycG8oQPdqL5dn.jwBLgMY8cD2rg/kNQPhnmfA5Y/JPEVu"
+        }
+    ]
+}

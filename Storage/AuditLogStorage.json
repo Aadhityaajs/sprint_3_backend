@@ -1,0 +1,18 @@
+{
+    "auditLogs": [
+        {
+            "aduitId": 1,
+            "auditUserId": 2,
+            "timeStamp": "string",
+            "auditAction": "SIGNUP",
+            "auditDescription": "user 2 signed up"
+        },
+        {
+            "aduitId": 2,
+            "auditUserId": 2,
+            "timeStamp": "string",
+            "auditAction": "LOGIN",
+            "auditDescription": "user 2 logged in"
+        }
+    ]
+}
