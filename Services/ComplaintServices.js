@@ -13,7 +13,7 @@ function todayYMD() {
 
 /**
  * Middleware: require x-user-id and x-user-role headers.
- * Attaches req.user = { id: number, role: 'CLIENT'|'HOST'|'ADMIN' }
+ * Attaches req.user = { id: number, role: 'client'|'host'|'admin' }
  */
 router.use((req, res, next) => {
   const rawId = req.header('x-user-id');
@@ -23,13 +23,13 @@ router.use((req, res, next) => {
     return res.status(400).json({ error: 'Missing x-user-id or x-user-role headers' });
   }
   const id = Number(rawId);
-  const role = String(rawRole || '').toUpperCase();
+  const role = String(rawRole || '').toLowerCase();
 
   if (Number.isNaN(id) || id <= 0) {
     return res.status(400).json({ error: 'Invalid x-user-id header' });
   }
-  if (!['CLIENT', 'HOST', 'ADMIN'].includes(role)) {
-    return res.status(400).json({ error: 'Invalid x-user-role header (must be CLIENT|HOST|ADMIN)' });
+  if (!['client', 'host', 'admin'].includes(role)) {
+    return res.status(400).json({ error: 'Invalid x-user-role header (must be client|host|admin)' });
   }
 
   req.user = { id, role };
@@ -38,7 +38,7 @@ router.use((req, res, next) => {
 
 /**
  * GET /api/complaints
- * Query params (optional): id (number), userType (CLIENT|HOST), from (YYYY-MM-DD), to (YYYY-MM-DD)
+ * Query params (optional): id (number), userType (client|host), from (YYYY-MM-DD), to (YYYY-MM-DD)
  * If no query params provided, returns all complaints.
  */
 router.get('/', async (req, res) => {
@@ -55,13 +55,13 @@ router.get('/', async (req, res) => {
       return res.json({ complaints: rows });
     }
 
-    // userType filter (CLIENT/HOST)
+    // userType filter (client/host)
     if (userType) {
-      const ut = String(userType).toUpperCase();
-      if (!['CLIENT', 'HOST'].includes(ut)) {
-        return res.status(400).json({ error: 'Invalid userType: must be CLIENT or HOST' });
+      const ut = String(userType).toLowerCase();
+      if (!['client', 'host'].includes(ut)) {
+        return res.status(400).json({ error: 'Invalid userType: must be client or host' });
       }
-      rows = rows.filter((r) => (r.clientOrHost || '').toUpperCase() === ut);
+      rows = rows.filter((r) => (r.clientOrHost || '').toLowerCase() === ut);
     }
 
     // Date range filters (createdOn)
@@ -92,15 +92,15 @@ router.get('/', async (req, res) => {
 /**
  * POST /api/complaints
  * Body: { bookingId, complaintDescription }
- * x-user-role must be CLIENT or HOST (ADMIN cannot create)
+ * x-user-role must be client or host (admin cannot create)
  * x-user-id is used as the userId (body.userId is ignored)
  */
 router.post('/', async (req, res) => {
   try {
     const { id: headerUserId, role } = req.user;
 
-    if (role === 'ADMIN') {
-      return res.status(403).json({ error: 'ADMIN users cannot create complaints' });
+    if (role === 'admin') {
+      return res.status(403).json({ error: 'admin users cannot create complaints' });
     }
 
     const { bookingId, complaintDescription } = req.body || {};
@@ -120,7 +120,7 @@ router.post('/', async (req, res) => {
       complaintId: newId,
       bookingId: numericBookingId,
       userId: headerUserId,
-      clientOrHost: role, // 'CLIENT' or 'HOST'
+      clientOrHost: role, // 'client' or 'host'
       complaintDescription: String(complaintDescription).trim(),
       complaintStatus: 'active', // starts active
       createdOn: todayYMD(),
@@ -139,13 +139,13 @@ router.post('/', async (req, res) => {
 
 /**
  * PATCH /api/complaints/:id/resolve
- * Only ADMIN allowed.
+ * Only admin allowed.
  * Sets complaintStatus = "closed" and resolvedOn = today (YYYY-MM-DD)
  */
 router.patch('/:id/resolve', async (req, res) => {
   try {
     const { role } = req.user;
-    if (role !== 'ADMIN') return res.status(403).json({ error: 'Only ADMIN can resolve complaints' });
+    if (role !== 'admin') return res.status(403).json({ error: 'Only admin can resolve complaints' });
 
     const id = Number(req.params.id);
     if (Number.isNaN(id)) return res.status(400).json({ error: 'Invalid complaint id' });
@@ -168,14 +168,14 @@ router.patch('/:id/resolve', async (req, res) => {
 /**
  * PATCH /api/complaints/:id/delete
  * Soft-delete: set complaintStatus = "deleted"
- * Only CLIENT/HOST allowed AND they can only delete **their own** complaints.
- * ADMIN cannot delete per your specification.
+ * Only client/host allowed AND they can only delete **their own** complaints.
+ * admin cannot delete per your specification.
  */
 router.patch('/:id/delete', async (req, res) => {
   try {
     const { id: headerUserId, role } = req.user;
-    if (role === 'ADMIN') {
-      return res.status(403).json({ error: 'ADMIN users cannot delete complaints' });
+    if (role === 'admin') {
+      return res.status(403).json({ error: 'admin users cannot delete complaints' });
     }
 
     const id = Number(req.params.id);

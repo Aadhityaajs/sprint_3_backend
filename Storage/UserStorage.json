@@ -1,17 +1,17 @@
 {
     "Users": [
         {
-            "userId": 1764269864987,
-            "username": "aadhi",
-            "email": "aadhi2k04@gmail.com",
-            "phone": "888366617",
+            "userId": 1764429932629,
+            "username": "demo_admin",
+            "email": "demoadmin@gmail.com",
+            "phone": "9874561230",
             "address": {
-                "building": "12",
-                "street": "VIT Chennai",
-                "city": "Chennai",
-                "pincode": "600127",
-                "state": "Tamil Nadu",
-                "country": "India"
+                "building": "123",
+                "street": "Sample Road",
+                "city": "Sample City",
+                "pincode": "123456",
+                "state": "Sample State",
+                "country": "Sample Country"
             },
             "hashedPassword": "$2b$10$cpeHCWqfaMInIsX3ryz7F.D4oFmSafVJRIKN1zXcsp4hWfkl5G4Iy",
             "status": "Active",
@@ -20,7 +20,7 @@
             "securityAnswer": "$2b$10$16kEfHoRr0j9Dg1m5MKx3.5oiIQMs4KB.kflmD0XvpyH2dhmt3VQC"
         },
         {
-            "userId": 1764273767621,
+            "userId": 1764269864987,
             "username": "client",
             "email": "aadh1i2k04@gmail.com",
             "phone": "8883666173",
@@ -322,6 +322,25 @@
             "role": "client",
             "securityQuestion": "What was the name of your first pet?",
             "securityAnswer": "$2b$10$.MuOBSKMycG8oQPdqL5dn.jwBLgMY8cD2rg/kNQPhnmfA5Y/JPEVu"
+        },
+        {
+            "userId": 1764429932987,
+            "username": "demo_client",
+            "email": "democlient@gmail.com",
+            "phone": "9500288164",
+            "address": {
+                "building": "1J/17",
+                "street": "Anna Nagar",
+                "city": "Madurai",
+                "pincode": "675294",
+                "state": "Tamil Nadu",
+                "country": "India"
+            },
+            "hashedPassword": "$2b$10$eMggsZ66cELPZ8IYKhQoxemjc0kMzp1YFWi35bbQg6XO/s0Eovg1q",
+            "status": "Active",
+            "role": "client",
+            "securityQuestion": "In which city were you born?",
+            "securityAnswer": "$2b$10$FksWXasIT96Gf7NnucrV4etiW9nw3fR/1l9aEZ8sIvb1oFfUOKWDO"
         }
     ]
 }
