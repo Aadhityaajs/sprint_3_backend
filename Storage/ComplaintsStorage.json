@@ -1,12 +1,22 @@
 {
   "complaints": [
     {
+      "complaintId": 15,
+      "bookingId": 1764381811709,
+      "userId": 1764280001234,
+      "clientOrHost": "host",
+      "complaintDescription": "Guest left property in unsanitary condition",
+      "complaintStatus": "active",
+      "createdOn": "2025-11-29",
+      "resolvedOn": ""
+    },
+    {
       "complaintId": 14,
       "bookingId": 1764430319913,
       "userId": 1764429932987,
       "clientOrHost": "client",
       "complaintDescription": "Property had pest or insect infestation",
-      "complaintStatus": "active",
+      "complaintStatus": "deleted",
       "createdOn": "2025-11-29",
       "resolvedOn": ""
     },

@@ -13,7 +13,7 @@
                 "state": "Sample State",
                 "country": "Sample Country"
             },
-            "hashedPassword": "$2b$10$cpeHCWqfaMInIsX3ryz7F.D4oFmSafVJRIKN1zXcsp4hWfkl5G4Iy",
+            "hashedPassword": "$2b$10$BPvZ1if73IPhTLXVMj8.3Ou66TFdnbUHm3zPI8zyPmaWpyhBbLPLG",
             "status": "Active",
             "role": "admin",
             "securityQuestion": "What is your mother's maiden name?",
@@ -70,7 +70,7 @@
                 "state": "Karnataka",
                 "country": "India"
             },
-            "hashedPassword": "$2b$10$N5X7KqZ8mW.1pLvYhF3QBeJKYc8vN9mZxT4wA2bC5dE6fG7hI8jK9",
+            "hashedPassword": "$2b$10$WbUk1IgTcbDu/trFEsa.9u5woYUU.FYHzhO78aaRlf5FJpQh3eJqq",
             "status": "Active",
             "role": "host",
             "securityQuestion": "What is your favorite city?",
@@ -336,7 +336,7 @@
                 "state": "Tamil Nadu",
                 "country": "India"
             },
-            "hashedPassword": "$2b$10$eMggsZ66cELPZ8IYKhQoxemjc0kMzp1YFWi35bbQg6XO/s0Eovg1q",
+            "hashedPassword": "$2b$10$mRRurnjRzy8S.GWCJZykDu4gM3umFpkdKvfPbuMP8.DbzcSvEs2NO",
             "status": "Active",
             "role": "client",
             "securityQuestion": "In which city were you born?",
