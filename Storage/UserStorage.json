@@ -242,7 +242,7 @@
                 "country": "India"
             },
             "hashedPassword": "$2b$10$G3P5CiR6eO.9hDnQzX1iSwcCqu6nF7eRrL2sS0tT3uV4wX5yZ6aB7",
-            "status": "Active",
+            "status": "Blocked",
             "role": "client",
             "securityQuestion": "What is your favorite song?",
             "securityAnswer": "$2b$10$H4Q6DjS7fP.0iEoRaY2jTxdDrv7oG8fSsM3tT1uU4vW5xY6zA7bC8"

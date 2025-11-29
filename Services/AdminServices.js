@@ -65,7 +65,7 @@ router.get("/users", (req, res) => {
     }
 
     // Remove passwords from response
-    const usersResponse = users.map(u => 
+    const usersResponse = users.map(u =>
     (
       {
         userId: u.userId,
@@ -557,6 +557,36 @@ router.put("/complaints/:id/status", (req, res) => {
     });
   } catch (error) {
     console.error("Error in PUT /complaints/:id/status:", error);
+    res.status(500).json({ success: false, message: "Server error" });
+  }
+});
+
+// Delete property (soft delete)
+router.delete("/properties/:id", (req, res) => {
+  try {
+    const { id } = req.params;
+    const data = readJSON(PROPERTY_FILE);
+
+    if (!data || !data.properties) {
+      return res.status(500).json({ success: false, message: "Failed to read properties" });
+    }
+
+    const propertyIndex = data.properties.findIndex(p => p.propertyId === parseInt(id));
+
+    if (propertyIndex === -1) {
+      return res.status(404).json({ success: false, message: "Property not found" });
+    }
+
+    // Soft delete by changing status
+    data.properties[propertyIndex].propertyStatus = "DELETED";
+    writeJSON(PROPERTY_FILE, data);
+
+    res.json({
+      success: true,
+      message: "Property deleted successfully"
+    });
+  } catch (error) {
+    console.error("Error in DELETE /properties/:id:", error);
     res.status(500).json({ success: false, message: "Server error" });
   }
 });

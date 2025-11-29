@@ -6,9 +6,9 @@
       "userId": 1764280001234,
       "clientOrHost": "host",
       "complaintDescription": "Guest left property in unsanitary condition",
-      "complaintStatus": "active",
+      "complaintStatus": "closed",
       "createdOn": "2025-11-29",
-      "resolvedOn": ""
+      "resolvedOn": "2025-11-30"
     },
     {
       "complaintId": 14,
