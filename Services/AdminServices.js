@@ -401,12 +401,13 @@ router.get("/notifications", (req, res) => {
   try {
     const { userId } = req.query;
 
-      const data = readJSON(NOTIFICATION_FILE);
-      if(!data || !data.notifications) {
+    const data = readJSON(NOTIFICATION_FILE);
+    if (!data) {
       return res.status(500).json({ success: false, message: "Failed to read notifications" });
     }
 
-    let notifications = data.notifications;
+    // Handle both 'notification' and 'notifications' properties
+    let notifications = data.notifications || data.notification || [];
 
     // Filter by user
     if (userId) {
@@ -444,38 +445,135 @@ router.post("/notifications", (req, res) => {
       });
     }
 
+    // Read notification storage
+    const notificationData = readJSON(NOTIFICATION_FILE);
+    if (!notificationData) {
+      return res.status(500).json({ success: false, message: "Failed to read notifications" });
+    }
+
+    // Handle both 'notification' and 'notifications' properties
+    if (!notificationData.notifications && !notificationData.notification) {
+      notificationData.notifications = [];
+    }
+
+    const notifications = notificationData.notifications || notificationData.notification || [];
+
+    // Read user storage to get all users
+    const userData = readJSON(USERS_FILE);
+    if (!userData || !userData.Users) {
+      return res.status(500).json({ success: false, message: "Failed to read users" });
+    }
+
+    // Filter users based on target
+    let targetUsers = [];
+
+    if (notificationTarget === "All Users") {
+      // Get all active users (excluding admins)
+      targetUsers = userData.Users.filter(u =>
+        u.status === "Active" && u.role !== "admin"
+      );
+    } else if (notificationTarget === "Clients") {
+      // Get all active clients
+      targetUsers = userData.Users.filter(u =>
+        u.status === "Active" && u.role === "client"
+      );
+    } else if (notificationTarget === "Hosts") {
+      // Get all active hosts
+      targetUsers = userData.Users.filter(u =>
+        u.status === "Active" && u.role === "host"
+      );
+    } else if (notificationTarget === "Specific Users" && userId) {
+      // Get specific user
+      targetUsers = userData.Users.filter(u =>
+        u.userId === parseInt(userId) && u.status === "Active"
+      );
+    }
+
+    if (targetUsers.length === 0) {
+      return res.status(400).json({
+        success: false,
+        message: "No active users found for the selected target"
+      });
+    }
+
+    // Create notifications for all target users
+    const createdNotifications = [];
+    let nextId = notifications.length > 0
+      ? Math.max(...notifications.map(n => n.notificationId || 0)) + 1
+      : 1;
+
+    for (const user of targetUsers) {
+      const newNotification = {
+        notificationId: nextId++,
+        notificationTitle,
+        notificationMessage,
+        notificationType,
+        notificationTarget,
+        notificationCreatedOn: new Date().toISOString(),
+        notificationIsRead: false,
+        userId: user.userId
+      };
+
+      notifications.push(newNotification);
+      createdNotifications.push(newNotification);
+    }
+
+    // Write back using the same property name that exists
+    if (notificationData.notification) {
+      notificationData.notification = notifications;
+    } else {
+      notificationData.notifications = notifications;
+    }
+
+    writeJSON(NOTIFICATION_FILE, notificationData);
+
+    res.status(201).json({
+      success: true,
+      message: `Notification created successfully for ${createdNotifications.length} user(s)`,
+      data: createdNotifications
+    });
+  } catch (error) {
+    console.error("Error in POST /notifications:", error);
+    res.status(500).json({ success: false, message: "Server error" });
+  }
+});
+
+
+// Mark notification as read
+router.put("/notifications/:id/read", (req, res) => {
+  try {
+    const { id } = req.params;
     const data = readJSON(NOTIFICATION_FILE);
+
     if (!data) {
       return res.status(500).json({ success: false, message: "Failed to read notifications" });
     }
 
-    if (!data.notifications) {
-      data.notifications = [];
+    const notifications = data.notifications || data.notification || [];
+    const notifIndex = notifications.findIndex(n => n.notificationId === parseInt(id));
+
+    if (notifIndex === -1) {
+      return res.status(404).json({ success: false, message: "Notification not found" });
     }
 
-    const newNotification = {
-      notificationId: data.notifications.length > 0
-        ? Math.max(...data.notifications.map(n => n.notificationId || 0)) + 1
-        : 1,
-      notificationTitle,
-      notificationMessage,
-      notificationType,
-      notificationTarget,
-      notificationCreatedOn: new Date().toISOString(),
-      notificationIsRead: false,
-      userId: userId ? parseInt(userId) : null
-    };
+    notifications[notifIndex].notificationIsRead = true;
+    notifications[notifIndex].notificationReadOn = new Date().toISOString();
 
-    data.notifications.push(newNotification);
+    if (data.notification) {
+      data.notification = notifications;
+    } else {
+      data.notifications = notifications;
+    }
+
     writeJSON(NOTIFICATION_FILE, data);
 
-    res.status(201).json({
+    res.json({
       success: true,
-      message: "Notification created successfully",
-      data: newNotification
+      message: "Notification marked as read",
+      data: notifications[notifIndex]
     });
   } catch (error) {
-    console.error("Error in POST /notifications:", error);
+    console.error("Error in PUT /notifications/:id/read:", error);
     res.status(500).json({ success: false, message: "Server error" });
   }
 });
