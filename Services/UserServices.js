@@ -413,4 +413,47 @@ router.get("/eligible-bookings/:userId", (req, res) => {
   }
 });
 
+
+router.post("/get-user", (req, res) => {
+  try {
+    const { userId } = req.body;
+    console.log("=== GET-USER ENDPOINT HIT ===");
+    console.log("Request body:", req.body);
+
+    if (!userId) {
+      console.log("No userId provided");
+      return res.status(400).json({ success: false, message: "userId required" });
+    }
+
+    const users = readUsers();
+    const usersArray = users.Users;
+    
+    console.log("Looking for userId:", userId);
+    console.log("Total users in database:", usersArray.length);
+    
+    const user = usersArray.find(u => u.userId === Number(userId));
+
+    if (!user) {
+      console.log("User not found for ID:", userId);
+      return res.status(404).json({ success: false, message: "User not found" });
+    }
+
+    if (user.status === "deleted") {
+      return res.status(403).json({ success: false, message: "Account deleted" });
+    }
+
+    // Remove sensitive data
+    const safe = { ...user };
+    delete safe.hashedPassword;
+    delete safe.securityAnswer;
+
+    console.log("Successfully returning user:", safe.username);
+    res.json({ success: true, user: safe });
+  } catch (err) {
+    console.error("/get-user err", err);
+    res.status(500).json({ success: false, message: "Server error" });
+  }
+});
+
+
 export default router;
