@@ -12,7 +12,8 @@ const USERS_FILE = path.join(__dirname, "../Storage/UserStorage.json");
 const PROPERTY_FILE = path.join(__dirname, "../Storage/PropertyStorage.json");
 const BOOKING_FILE = path.join(__dirname, "../Storage/BookingStorage.json");
 
-const banking_url = "http://10.23.244.173:5000/api/transaction/external";
+// const banking_url = "http://10.23.244.173:5000/api/transaction/external";
+const banking_url = "http://localhost:5000/api/transaction/external";
 
 // ---------------- JSON HELPERS ----------------
 function readJSON(filePath) {
