@@ -282,8 +282,9 @@
             "notificationType": "info",
             "notificationTarget": "All Users",
             "notificationCreatedOn": "2025-11-30T17:03:54.415Z",
-            "notificationIsRead": false,
-            "userId": 1764429932987
+            "notificationIsRead": true,
+            "userId": 1764429932987,
+            "notificationReadOn": "2025-11-30T18:06:56.020Z"
         },
         {
             "notificationId": 29,
@@ -312,8 +313,9 @@
             "notificationType": "info",
             "notificationTarget": "All Users",
             "notificationCreatedOn": "2025-11-30T17:03:54.427Z",
-            "notificationIsRead": false,
-            "userId": 1764280001234
+            "notificationIsRead": true,
+            "userId": 1764280001234,
+            "notificationReadOn": "2025-11-30T18:27:32.637Z"
         },
         {
             "notificationId": 32,
