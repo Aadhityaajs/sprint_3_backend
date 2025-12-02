@@ -130,8 +130,9 @@
             "notificationType": "info",
             "notificationTarget": "Clients",
             "notificationCreatedOn": "2025-11-30T16:48:13.997Z",
-            "notificationIsRead": false,
-            "userId": 1764429932987
+            "notificationIsRead": true,
+            "userId": 1764429932987,
+            "notificationReadOn": "2025-12-02T19:15:14.022Z"
         },
         {
             "notificationId": 14,
@@ -662,6 +663,608 @@
             "notificationType": "info",
             "notificationTarget": "Hosts",
             "notificationCreatedOn": "2025-11-30T17:36:09.890Z",
+            "notificationIsRead": false,
+            "userId": 1764280011234
+        },
+        {
+            "notificationId": 66,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.215Z",
+            "notificationIsRead": false,
+            "userId": 1764269864987
+        },
+        {
+            "notificationId": 67,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.215Z",
+            "notificationIsRead": false,
+            "userId": 1764273797846
+        },
+        {
+            "notificationId": 68,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.215Z",
+            "notificationIsRead": false,
+            "userId": 1764280001234
+        },
+        {
+            "notificationId": 69,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.215Z",
+            "notificationIsRead": false,
+            "userId": 1764280002345
+        },
+        {
+            "notificationId": 70,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.215Z",
+            "notificationIsRead": false,
+            "userId": 1764280003456
+        },
+        {
+            "notificationId": 71,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.215Z",
+            "notificationIsRead": false,
+            "userId": 1764280004567
+        },
+        {
+            "notificationId": 72,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.215Z",
+            "notificationIsRead": false,
+            "userId": 1764280005678
+        },
+        {
+            "notificationId": 73,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.215Z",
+            "notificationIsRead": false,
+            "userId": 1764280006789
+        },
+        {
+            "notificationId": 74,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.215Z",
+            "notificationIsRead": false,
+            "userId": 1764280007890
+        },
+        {
+            "notificationId": 75,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.215Z",
+            "notificationIsRead": false,
+            "userId": 1764280008901
+        },
+        {
+            "notificationId": 76,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.215Z",
+            "notificationIsRead": false,
+            "userId": 1764280009012
+        },
+        {
+            "notificationId": 77,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.215Z",
+            "notificationIsRead": false,
+            "userId": 1764280011234
+        },
+        {
+            "notificationId": 78,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.215Z",
+            "notificationIsRead": false,
+            "userId": 1764280012345
+        },
+        {
+            "notificationId": 79,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.215Z",
+            "notificationIsRead": false,
+            "userId": 1764396053429
+        },
+        {
+            "notificationId": 80,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.216Z",
+            "notificationIsRead": false,
+            "userId": 1764429932987
+        },
+        {
+            "notificationId": 81,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.226Z",
+            "notificationIsRead": false,
+            "userId": 1764269864987
+        },
+        {
+            "notificationId": 82,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.226Z",
+            "notificationIsRead": false,
+            "userId": 1764273797846
+        },
+        {
+            "notificationId": 83,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.226Z",
+            "notificationIsRead": false,
+            "userId": 1764280001234
+        },
+        {
+            "notificationId": 84,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.226Z",
+            "notificationIsRead": false,
+            "userId": 1764280002345
+        },
+        {
+            "notificationId": 85,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.226Z",
+            "notificationIsRead": false,
+            "userId": 1764280003456
+        },
+        {
+            "notificationId": 86,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.226Z",
+            "notificationIsRead": false,
+            "userId": 1764280004567
+        },
+        {
+            "notificationId": 87,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.226Z",
+            "notificationIsRead": false,
+            "userId": 1764280005678
+        },
+        {
+            "notificationId": 88,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.226Z",
+            "notificationIsRead": false,
+            "userId": 1764280006789
+        },
+        {
+            "notificationId": 89,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.226Z",
+            "notificationIsRead": false,
+            "userId": 1764280007890
+        },
+        {
+            "notificationId": 90,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.226Z",
+            "notificationIsRead": false,
+            "userId": 1764280008901
+        },
+        {
+            "notificationId": 91,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.226Z",
+            "notificationIsRead": false,
+            "userId": 1764280009012
+        },
+        {
+            "notificationId": 92,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.226Z",
+            "notificationIsRead": false,
+            "userId": 1764280011234
+        },
+        {
+            "notificationId": 93,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.226Z",
+            "notificationIsRead": false,
+            "userId": 1764280012345
+        },
+        {
+            "notificationId": 94,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.226Z",
+            "notificationIsRead": false,
+            "userId": 1764396053429
+        },
+        {
+            "notificationId": 95,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.226Z",
+            "notificationIsRead": false,
+            "userId": 1764429932987
+        },
+        {
+            "notificationId": 96,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.240Z",
+            "notificationIsRead": false,
+            "userId": 1764269864987
+        },
+        {
+            "notificationId": 97,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.240Z",
+            "notificationIsRead": false,
+            "userId": 1764273797846
+        },
+        {
+            "notificationId": 98,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.240Z",
+            "notificationIsRead": false,
+            "userId": 1764280001234
+        },
+        {
+            "notificationId": 99,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.240Z",
+            "notificationIsRead": false,
+            "userId": 1764280002345
+        },
+        {
+            "notificationId": 100,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.240Z",
+            "notificationIsRead": false,
+            "userId": 1764280003456
+        },
+        {
+            "notificationId": 101,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.240Z",
+            "notificationIsRead": false,
+            "userId": 1764280004567
+        },
+        {
+            "notificationId": 102,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.240Z",
+            "notificationIsRead": false,
+            "userId": 1764280005678
+        },
+        {
+            "notificationId": 103,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.240Z",
+            "notificationIsRead": false,
+            "userId": 1764280006789
+        },
+        {
+            "notificationId": 104,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.240Z",
+            "notificationIsRead": false,
+            "userId": 1764280007890
+        },
+        {
+            "notificationId": 105,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.240Z",
+            "notificationIsRead": false,
+            "userId": 1764280008901
+        },
+        {
+            "notificationId": 106,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.240Z",
+            "notificationIsRead": false,
+            "userId": 1764280009012
+        },
+        {
+            "notificationId": 107,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.240Z",
+            "notificationIsRead": false,
+            "userId": 1764280011234
+        },
+        {
+            "notificationId": 108,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.240Z",
+            "notificationIsRead": false,
+            "userId": 1764280012345
+        },
+        {
+            "notificationId": 109,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.240Z",
+            "notificationIsRead": false,
+            "userId": 1764396053429
+        },
+        {
+            "notificationId": 110,
+            "notificationTitle": "System Maintenance Notice",
+            "notificationMessage": "System will be under maintenance this Sunday from 2AM to 6AM",
+            "notificationType": "info",
+            "notificationTarget": "All Users",
+            "notificationCreatedOn": "2025-12-02T19:27:05.240Z",
+            "notificationIsRead": true,
+            "userId": 1764429932987,
+            "notificationReadOn": "2025-12-02T20:00:31.714Z"
+        },
+        {
+            "notificationId": 111,
+            "notificationTitle": "Payment Reminder",
+            "notificationMessage": "Please complete your pending payments by end of week",
+            "notificationType": "warning",
+            "notificationTarget": "Clients",
+            "notificationCreatedOn": "2025-12-02T19:27:39.468Z",
+            "notificationIsRead": false,
+            "userId": 1764269864987
+        },
+        {
+            "notificationId": 112,
+            "notificationTitle": "Payment Reminder",
+            "notificationMessage": "Please complete your pending payments by end of week",
+            "notificationType": "warning",
+            "notificationTarget": "Clients",
+            "notificationCreatedOn": "2025-12-02T19:27:39.468Z",
+            "notificationIsRead": false,
+            "userId": 1764280002345
+        },
+        {
+            "notificationId": 113,
+            "notificationTitle": "Payment Reminder",
+            "notificationMessage": "Please complete your pending payments by end of week",
+            "notificationType": "warning",
+            "notificationTarget": "Clients",
+            "notificationCreatedOn": "2025-12-02T19:27:39.468Z",
+            "notificationIsRead": false,
+            "userId": 1764280004567
+        },
+        {
+            "notificationId": 114,
+            "notificationTitle": "Payment Reminder",
+            "notificationMessage": "Please complete your pending payments by end of week",
+            "notificationType": "warning",
+            "notificationTarget": "Clients",
+            "notificationCreatedOn": "2025-12-02T19:27:39.468Z",
+            "notificationIsRead": false,
+            "userId": 1764280006789
+        },
+        {
+            "notificationId": 115,
+            "notificationTitle": "Payment Reminder",
+            "notificationMessage": "Please complete your pending payments by end of week",
+            "notificationType": "warning",
+            "notificationTarget": "Clients",
+            "notificationCreatedOn": "2025-12-02T19:27:39.468Z",
+            "notificationIsRead": false,
+            "userId": 1764280008901
+        },
+        {
+            "notificationId": 116,
+            "notificationTitle": "Payment Reminder",
+            "notificationMessage": "Please complete your pending payments by end of week",
+            "notificationType": "warning",
+            "notificationTarget": "Clients",
+            "notificationCreatedOn": "2025-12-02T19:27:39.468Z",
+            "notificationIsRead": false,
+            "userId": 1764280012345
+        },
+        {
+            "notificationId": 117,
+            "notificationTitle": "Payment Reminder",
+            "notificationMessage": "Please complete your pending payments by end of week",
+            "notificationType": "warning",
+            "notificationTarget": "Clients",
+            "notificationCreatedOn": "2025-12-02T19:27:39.468Z",
+            "notificationIsRead": false,
+            "userId": 1764396053429
+        },
+        {
+            "notificationId": 118,
+            "notificationTitle": "Payment Reminder",
+            "notificationMessage": "Please complete your pending payments by end of week",
+            "notificationType": "warning",
+            "notificationTarget": "Clients",
+            "notificationCreatedOn": "2025-12-02T19:27:39.468Z",
+            "notificationIsRead": true,
+            "userId": 1764429932987,
+            "notificationReadOn": "2025-12-02T20:02:10.390Z"
+        },
+        {
+            "notificationId": 119,
+            "notificationTitle": "Property Verification Required",
+            "notificationMessage": "Please update your property details and complete verification",
+            "notificationType": "alert",
+            "notificationTarget": "Hosts",
+            "notificationCreatedOn": "2025-12-02T19:28:23.861Z",
+            "notificationIsRead": false,
+            "userId": 1764273797846
+        },
+        {
+            "notificationId": 120,
+            "notificationTitle": "Property Verification Required",
+            "notificationMessage": "Please update your property details and complete verification",
+            "notificationType": "alert",
+            "notificationTarget": "Hosts",
+            "notificationCreatedOn": "2025-12-02T19:28:23.861Z",
+            "notificationIsRead": false,
+            "userId": 1764280001234
+        },
+        {
+            "notificationId": 121,
+            "notificationTitle": "Property Verification Required",
+            "notificationMessage": "Please update your property details and complete verification",
+            "notificationType": "alert",
+            "notificationTarget": "Hosts",
+            "notificationCreatedOn": "2025-12-02T19:28:23.861Z",
+            "notificationIsRead": false,
+            "userId": 1764280003456
+        },
+        {
+            "notificationId": 122,
+            "notificationTitle": "Property Verification Required",
+            "notificationMessage": "Please update your property details and complete verification",
+            "notificationType": "alert",
+            "notificationTarget": "Hosts",
+            "notificationCreatedOn": "2025-12-02T19:28:23.861Z",
+            "notificationIsRead": false,
+            "userId": 1764280005678
+        },
+        {
+            "notificationId": 123,
+            "notificationTitle": "Property Verification Required",
+            "notificationMessage": "Please update your property details and complete verification",
+            "notificationType": "alert",
+            "notificationTarget": "Hosts",
+            "notificationCreatedOn": "2025-12-02T19:28:23.861Z",
+            "notificationIsRead": false,
+            "userId": 1764280007890
+        },
+        {
+            "notificationId": 124,
+            "notificationTitle": "Property Verification Required",
+            "notificationMessage": "Please update your property details and complete verification",
+            "notificationType": "alert",
+            "notificationTarget": "Hosts",
+            "notificationCreatedOn": "2025-12-02T19:28:23.861Z",
+            "notificationIsRead": false,
+            "userId": 1764280009012
+        },
+        {
+            "notificationId": 125,
+            "notificationTitle": "Property Verification Required",
+            "notificationMessage": "Please update your property details and complete verification",
+            "notificationType": "alert",
+            "notificationTarget": "Hosts",
+            "notificationCreatedOn": "2025-12-02T19:28:23.863Z",
             "notificationIsRead": false,
             "userId": 1764280011234
         }

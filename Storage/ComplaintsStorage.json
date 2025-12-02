@@ -1,6 +1,46 @@
 {
   "complaints": [
     {
+      "complaintId": 19,
+      "bookingId": 1764430319913,
+      "userId": 1764429932987,
+      "clientOrHost": "client",
+      "complaintDescription": "Neighborhood was unsafe or misrepresented",
+      "complaintStatus": "active",
+      "createdOn": "2025-12-03",
+      "resolvedOn": ""
+    },
+    {
+      "complaintId": 18,
+      "bookingId": 1764527181687,
+      "userId": 1764429932987,
+      "clientOrHost": "client",
+      "complaintDescription": "Property had safety or security issues",
+      "complaintStatus": "deleted",
+      "createdOn": "2025-12-03",
+      "resolvedOn": ""
+    },
+    {
+      "complaintId": 17,
+      "bookingId": 1764527144442,
+      "userId": 1764429932987,
+      "clientOrHost": "client",
+      "complaintDescription": "Property was unclean or unsanitary",
+      "complaintStatus": "closed",
+      "createdOn": "2025-12-03",
+      "resolvedOn": "2025-12-03"
+    },
+    {
+      "complaintId": 16,
+      "bookingId": 1764430187467,
+      "userId": 1764429932987,
+      "clientOrHost": "client",
+      "complaintDescription": "Property was unclean or unsanitary",
+      "complaintStatus": "closed",
+      "createdOn": "2025-12-01",
+      "resolvedOn": "2025-12-01"
+    },
+    {
       "complaintId": 15,
       "bookingId": 1764381811709,
       "userId": 1764280001234,
